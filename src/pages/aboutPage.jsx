@@ -17,7 +17,7 @@ const AboutPage = () => {
         });
         return () => {
             if (swiper && swiper.destroy) {
-                swiper.destroy(true, true); // Destroy swiper instance and remove all listeners
+                swiper.destroy(true, true); 
             }
         };
     }, []);
@@ -27,13 +27,13 @@ const AboutPage = () => {
             <main>
                 <div
                     className="heading"
-                    style={{ background: "url('public/img-1.jpg') no-repeat" }}
+                    style={{ background: "url('/img-1.jpg') no-repeat" }}
                 >
                     <h1>about us</h1>
                 </div>
                 <section className="about">
                     <div className="image">
-                        <img src="public/about-img.jpg" alt="About Us" />
+                        <img src="/about-img.jpg" alt="About Us" />
                     </div>
                     <div className="content">
                         <h3>why choose us?</h3>
@@ -80,7 +80,7 @@ const AboutPage = () => {
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia sint sequi deleniti quod tenetur, ipsum labore dolore quasi similique vero.</p>
                                 <h3>Jaiveer Singh</h3>
                                 <span>Traveller</span>
-                                <img src="public/pic-5.png" alt="" />
+                                <img src="/pic-5.png" alt="" />
                             </div>
                             <div class="swiper-slide">
                                 <div class="stars">
@@ -92,7 +92,7 @@ const AboutPage = () => {
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum quo recusandae placeat quisquam praesentium aliquid consequuntur libero iusto dolorum molestiae.</p>
                                 <h3>Suchita Tripathi</h3>
                                 <span>Traveller</span>
-                                <img src="public/pic-4.png" alt="" />
+                                <img src="/pic-4.png" alt="" />
                             </div>
                             <div class="swiper-slide">
                                 <div class="stars">
@@ -104,7 +104,7 @@ const AboutPage = () => {
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit libero quod architecto veritatis minus debitis omnis dolorum natus, nesciunt, est iste at quam eum magnam mollitia tempora placeat tenetur excepturi.</p>
                                 <h3>Malenia Rodriguez</h3>
                                 <span>Traveller</span>
-                                <img src="public/pic-2.png" alt="" />
+                                <img src="/pic-2.png" alt="" />
                             </div>
                             <div class="swiper-slide">
                                 <div class="stars">
@@ -115,7 +115,7 @@ const AboutPage = () => {
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dignissimos quis perspiciatis eius culpa nobis quasi et facere in dolor?</p>
                                 <h3>Beiji Bihan</h3>
                                 <span>Traveller</span>
-                                <img src="public/pic-6.png" alt="" />
+                                <img src="/pic-6.png" alt="" />
                             </div>
                             <div class="swiper-slide">
                                 <div class="stars">
@@ -128,7 +128,7 @@ const AboutPage = () => {
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia sint sequi deleniti quod tenetur, ipsum labore dolore quasi similique vero.</p>
                                 <h3>John Stewart</h3>
                                 <span>Traveller</span>
-                                <img src="public/pic-1.png" alt="" />
+                                <img src="/pic-1.png" alt="" />
                             </div>
                             <div class="swiper-slide">
                                 <div class="stars">
@@ -140,7 +140,7 @@ const AboutPage = () => {
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia sint sequi deleniti quod tenetur, ipsum labore dolore quasi similique vero.</p>
                                 <h3>Arthur Morgan</h3>
                                 <span>Traveller</span>
-                                <img src="public/pic-3.png" alt="" />
+                                <img src="/pic-3.png" alt="" />
                             </div>
                         </div>
                     </div>

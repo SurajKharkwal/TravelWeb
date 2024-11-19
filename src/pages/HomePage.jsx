@@ -25,7 +25,7 @@ const HomePage = () => {
                             <div
                                 className="swiper-slide"
                                 style={{
-                                    background: 'url(public/home-bg-1.jpg) no-repeat',
+                                    background: 'url(/home-bg-1.jpg) no-repeat',
                                 }}
                             >
                                 <div className="content">
@@ -39,7 +39,7 @@ const HomePage = () => {
                             <div
                                 className="swiper-slide"
                                 style={{
-                                    background: 'url(public/home-bg-2.jpg) no-repeat',
+                                    background: 'url(/home-bg-2.jpg) no-repeat',
                                 }}
                             >
                                 <div className="content">
@@ -53,7 +53,7 @@ const HomePage = () => {
                             <div
                                 className="swiper-slide"
                                 style={{
-                                    background: 'url(public/img-5.jpg) no-repeat',
+                                    background: 'url(/img-5.jpg) no-repeat',
                                 }}
                             >
                                 <div className="content">
@@ -72,27 +72,27 @@ const HomePage = () => {
                     <h1 className="heading-title"> our services </h1>
                     <div className="box-container">
                         <div className="box">
-                            <img src="public/serv-1.png" alt="adventure" />
+                            <img src="/serv-1.png" alt="adventure" />
                             <h3>adventure</h3>
                         </div>
                         <div className="box">
-                            <img src="public/serv-5.png" alt="tour guide" />
+                            <img src="/serv-5.png" alt="tour guide" />
                             <h3>tour guide</h3>
                         </div>
                         <div className="box">
-                            <img src="public/serv-2.png" alt="trekking" />
+                            <img src="/serv-2.png" alt="trekking" />
                             <h3>trekking</h3>
                         </div>
                         <div className="box">
-                            <img src="public/serv-6.png" alt="rafting" />
+                            <img src="/serv-6.png" alt="rafting" />
                             <h3>rafting</h3>
                         </div>
                         <div className="box">
-                            <img src="public/serv-3.png" alt="off-roading" />
+                            <img src="/serv-3.png" alt="off-roading" />
                             <h3>off-roading</h3>
                         </div>
                         <div className="box">
-                            <img src="public/serv-4.png" alt="camping" />
+                            <img src="/serv-4.png" alt="camping" />
                             <h3>camping</h3>
                         </div>
                     </div>
@@ -100,7 +100,7 @@ const HomePage = () => {
 
                 <section className="home-about">
                     <div className="image">
-                        <img src="public/about-img.jpg" alt="About Us" />
+                        <img src="/about-img.jpg" alt="About Us" />
                     </div>
                     <div className="content">
                         <h3>about us</h3>
@@ -121,7 +121,7 @@ const HomePage = () => {
                     <div className="box-container">
                         <div className="box">
                             <div className="image">
-                                <img src="public/category-1.jpg" alt="adventure & tour" />
+                                <img src="/category-1.jpg" alt="adventure & tour" />
                             </div>
                             <div className="content">
                                 <h3>adventure & tour</h3>
@@ -132,7 +132,7 @@ const HomePage = () => {
 
                         <div className="box">
                             <div className="image">
-                                <img src="public/category-4.jpg" alt="adventure & tour" />
+                                <img src="/category-4.jpg" alt="adventure & tour" />
                             </div>
                             <div className="content">
                                 <h3>adventure & tour</h3>
@@ -142,7 +142,7 @@ const HomePage = () => {
                         </div>
                         <div className="box">
                             <div className="image">
-                                <img src="public/category-2.jpg" alt="adventure & tour" />
+                                <img src="/category-2.jpg" alt="adventure & tour" />
                             </div>
                             <div className="content">
                                 <h3>adventure & tour</h3>
