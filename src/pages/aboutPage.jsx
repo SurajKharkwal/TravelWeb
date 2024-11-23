@@ -38,16 +38,16 @@ const AboutPage = () => {
                     <div className="content">
                         <h3>why choose us?</h3>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                            lorem20 ipsum dolor sit amet consectetur adipisicing elit. Rem
                             perspiciatis aperiam hic in ut, natus molestiae enim molestias.
                             Totam in dolore repudiandae quaerat, neque nisi aut architecto
                             maiores facere voluptas.
                         </p>
                         <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
-                            numquam molestias aut quae harum doloremque, reiciendis iste,
+                            lorem20 ipsum dolor, sit amet consectetur adipisicing elit. Repellat
+                            numquam molestias aut quae harum dolorem20que, reiciendis iste,
                             architecto, distinctio enim accusamus nesciunt. Excepturi corrupti,
-                            laboriosam voluptates aliquam fugit vero dolorem?
+                            laboriosam voluptates aliquam fugit vero dolorem20?
                         </p>
                         <div className="icons-container">
                             <div className="icons">
@@ -77,7 +77,7 @@ const AboutPage = () => {
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia sint sequi deleniti quod tenetur, ipsum labore dolore quasi similique vero.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit eligendi quasi molestiae dolores minus ad, repudiandae iure deserunt pariatur suscipit., ipsum dolor sit amet consectetur adipisicing elit. Dolore nostrum iusto quia, ab libero exercitationem nam numquam perferendis, quibusdam unde ullam reiciendis, et laborum maiores in quod? Esse, voluptate explicabo.</p>
                                 <h3>Jaiveer Singh</h3>
                                 <span>Traveller</span>
                                 <img src="/pic-5.png" alt="" />
@@ -89,7 +89,7 @@ const AboutPage = () => {
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                 </div>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum quo recusandae placeat quisquam praesentium aliquid consequuntur libero iusto dolorum molestiae.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet repellendus debitis ipsum quam nulla mollitia molestiae voluptates illo quia commodi. ipsum dolor, sit amet consectetur adipisicing elit. Officiis ea porro fugiat sapiente numquam temporibus, consequuntur, ipsa animi libero nesciunt accusamus itaque inventore dolorum reprehenderit! Molestiae optio iusto voluptatem dicta.</p>
                                 <h3>Suchita Tripathi</h3>
                                 <span>Traveller</span>
                                 <img src="/pic-4.png" alt="" />
@@ -101,7 +101,7 @@ const AboutPage = () => {
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit libero quod architecto veritatis minus debitis omnis dolorum natus, nesciunt, est iste at quam eum magnam mollitia tempora placeat tenetur excepturi.</p>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam esse dolorem mollitia adipisci facere temporibus enim, ipsa dolores quo sint! ipsum dolor sit amet consectetur adipisicing elit. Impedit dolores a sed vel obcaecati necessitatibus culpa perferendis inventore adipisci ratione! Amet rem iste molestias optio perferendis, ducimus quasi deleniti fugit!</p>
                                 <h3>Malenia Rodriguez</h3>
                                 <span>Traveller</span>
                                 <img src="/pic-2.png" alt="" />
@@ -112,7 +112,7 @@ const AboutPage = () => {
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dignissimos quis perspiciatis eius culpa nobis quasi et facere in dolor?</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque cupiditate laborum quo veniam blanditiis, magnam autem minima odit facilis? Fugit. ipsum dolor sit amet consectetur adipisicing elit. Eum neque perferendis id natus sapiente veniam quod quam ut minus. Aperiam accusamus reprehenderit debitis ipsum libero, aliquam voluptate quae perspiciatis ex!</p>
                                 <h3>Beiji Bihan</h3>
                                 <span>Traveller</span>
                                 <img src="/pic-6.png" alt="" />
@@ -125,7 +125,7 @@ const AboutPage = () => {
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia sint sequi deleniti quod tenetur, ipsum labore dolore quasi similique vero.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores qui explicabo praesentium ut excepturi ratione voluptate quaerat modi dolorum vel. ipsum dolor sit amet consectetur adipisicing elit. Neque reprehenderit cum quae accusantium necessitatibus explicabo, nisi obcaecati provident deleniti velit quaerat id quod repellat adipisci dolores sed nemo ex sunt!</p>
                                 <h3>John Stewart</h3>
                                 <span>Traveller</span>
                                 <img src="/pic-1.png" alt="" />
@@ -135,12 +135,12 @@ const AboutPage = () => {
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia sint sequi deleniti quod tenetur, ipsum labore dolore quasi similique vero.</p>
+                                <p>Our so-called journey to Tahiti started with grand promises. Dutch had us convinced that a sugar plantation life awaited us—a peaceful retreat from Pinkertons, rival gangs, and the mistakes we'd made. But as is often the case with Dutch's plans, things took a turn for the worse long before we ever saw a sailboat.
+                                  After robbing a boat loaded with high society folk, we got tangled up with Cornwall's private army and ended up fleeing on a cargo ship. Instead of Tahiti, we found ourselves shipwrecked on Guarma, a tropical island that was anything but paradise.</p>
                                 <h3>Arthur Morgan</h3>
                                 <span>Traveller</span>
-                                <img src="/pic-3.png" alt="" />
+                                <img src="/3a1706903cc7ae48fb72b11857813523.jpg" alt="" />
                             </div>
                         </div>
                     </div>
