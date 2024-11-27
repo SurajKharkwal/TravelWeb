@@ -1,40 +1,44 @@
-import { useState } from 'react'
-import './App.css'
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import BookPage from './pages/bookPage';
-import HomePage from './pages/HomePage';
-import AboutPage from './pages/aboutPage';
-import PackagePage from './pages/packagePage';
-import ScrollToTop from './components/ScrollToTop';
+import { createBrowserRouter, RouterProvider, useLocation } from "react-router-dom";
+import Home from "./routes/Home";
+import SignIn from "./routes/SignIn";
+import Navbar from "./components/Navbar";
+import Package from "./routes/Package";
+import Footer from "./components/Footer";
 
-function App() {
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <HomePage />, 
-    },
-    {
-      path: "/Home",
-      element: <HomePage />,
-    },
-    {
-      path: "/About",
-      element: <AboutPage />,
-    },
-    {
-      path: "/Book",
-      element: <BookPage />,
-    },
-    {
-      path: "/Package",
-      element: <PackagePage />,
-    },
-  ]);
-
+const Layout = ({ children }) => {
+  const location = useLocation();
   return (
-    <>
-        <RouterProvider router={router} />
-    </>
+    <div className="relative w-full min-h-[100vh]">
+      {location.pathname !== "/sign-in" && <Navbar />}
+      {children}
+      {location.pathname !== "/sign-in" && <Footer />}
+    </div>
   );
+};
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: (
+      <Layout>
+        <Home />
+      </Layout>
+    ),
+  },
+  {
+    path: "/package",
+    element: (
+      <Layout>
+        <Package />
+      </Layout>
+    ),
+  },
+  {
+    path: "/sign-in",
+    element: <SignIn />,
+  },
+]);
+
+export default function App() {
+  return <RouterProvider router={router} />;
 }
-export default App;
